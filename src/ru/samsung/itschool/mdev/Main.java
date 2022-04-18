@@ -17,6 +17,7 @@ public class Main {
 
     public static void main(String[] args) {
         // GSON - Google SON (Script Object Notation)
+        // что-то меняю!!!
         String str = "{\"name\":\"Anton\",\"age\":15,\"position\":\"Junior\",\"salary\":100,\"skills\":[\"java\",\"xml\",\"python\",\"Android\"]}";
         Gson gson = new Gson();
         Staff staff = gson.fromJson(str, Staff.class);
